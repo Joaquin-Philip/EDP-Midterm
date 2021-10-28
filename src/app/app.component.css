@@ -1,0 +1,60 @@
+mat-toolbar {
+  background: rgb(179, 85, 241);
+  color: rgb(22, 20, 20);
+  height: 60px;
+}
+
+mat-sidenav {
+  width: 230px;
+  background: rgba(235, 243, 252, 0.356);
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+  background-image: url(https://designbuffs.com/wp-content/uploads/2020/10/11_places_for_illustrations_v1_B_53c4619d4e4f43f9f10384c9e46eb1fd_2000.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+mat-list-item:hover {
+  background: rgba(170, 232, 243, 0.644);
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 32px;
+}
+
+.anchor_class {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color: black;
+  margin-left: 20px;
+}
+
+.avatar {
+  height: 180px;
+  width: 180px;
+}
+
+.name {
+  color: black;
+}
+
+mat-divider {
+  background-color: black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.icon {
+  color: black;
+}
